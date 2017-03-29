@@ -36,8 +36,6 @@ echo "-----> bundle install"
 bundle install -j4 --deployment
 echo "-----> npm install"
 npm install
-echo "-----> npm install --only=dev"
-npm install --only=dev
 echo "-----> npm start"
 npm start
 echo "-----> npm prune"
