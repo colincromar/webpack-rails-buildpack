@@ -34,8 +34,6 @@ echo "-----> gem install bundler"
 gem install bundler --no-document
 echo "-----> bundle install"
 bundle install -j4 --deployment
-echo "-----> npm install --only=dev"
-npm install --only=dev
 echo "-----> npm install"
 npm install
 echo "-----> npm start"
