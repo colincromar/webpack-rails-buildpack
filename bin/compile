@@ -1,11 +1,6 @@
 #!/bin/bash
 # -*- shell-script -*-
 
-# Run the webpack-rails rake task `webpack:compile`.
-#
-# This compiles assets to `public/webpack` when using default
-# configuration.
-
 set -o errexit # exit on error
 
 build_dir=$1
